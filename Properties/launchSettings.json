@@ -1,0 +1,42 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50776",
+      "sslPort": 44320
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "auth",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Authenticator": {
+      "commandName": "Project",
+      "launchUrl": "auth",
+      "environmentVariables": {
+        "SPATIALOS_TOKEN": " ",
+        "XSOLLA_API_KEY": " ",
+        "XSOLLA_PROJECT_ID": " ",
+        "XSOLLA_MERCHANT_ID": " ",
+        "Port": "8080",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:8080"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "PORT": "8080"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}

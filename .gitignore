@@ -1,0 +1,6 @@
+package
+.vs
+.spatialos
+*.user
+bin/
+obj/
